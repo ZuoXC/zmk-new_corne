@@ -79,10 +79,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans    &kp N1      &kp N2                &kp N3                 &kp N4             &kp N5                                   &mmv MOVE_UP                     &kp N6    &kp N7     &kp N8    &kp N9         &kp N0       &kp BSPC
-&kp CAPS  &kp LBKT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL                &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp HOME  &kp LEFT   &kp DOWN  &kp UP         &kp RIGHT    &kp END
-&trans    &bt BT_CLR  &bt BT_PRV            &bt BT_NXT             &kp CARET          &kp TILDE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PIPE  &kp MINUS  &kp PLUS  &kp BACKSLASH  &kp PAGE_UP  &kp PG_DN
-                                            &trans                 &trans             &trans                                                                    &kp INS   &trans     &trans
+&trans    &kp N1      &kp N2                &kp N3                 &kp N4             &kp N5                                   &mmv MOVE_UP                     &kp N6         &kp N7     &kp N8    &kp N9         &kp N0       &kp DEL
+&kp CAPS  &kp LBKT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL                &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp UP         &kp RIGHT    &kp END
+&trans    &bt BT_CLR  &bt BT_PRV            &bt BT_NXT             &kp CARET          &kp TILDE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp PIPE       &kp MINUS  &kp PLUS  &kp BACKSLASH  &kp PAGE_UP  &kp PG_DN
+                                            &trans                 &trans             &trans                                                                    &kp INS        &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
